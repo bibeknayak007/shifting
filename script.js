@@ -219,7 +219,7 @@ if (quoteForm) {
 
                 if (response.ok) {
                     alert("🎉 Booking confirmed! Payment method: " + finalPaymentMethod.toUpperCase());
-                    const adminPhone = "9779705600529"; 
+                    const adminPhone = "9779818032581"; 
                     const message = `*New Booking*%0A*Payment:* ${finalPaymentMethod.toUpperCase()}%0A*From:* ${bookingDataTemp.pickupAddress}%0A*To:* ${bookingDataTemp.destinationAddress}%0A*Size:* ${bookingDataTemp.houseSize}`;
                     window.open(`https://wa.me/${adminPhone}?text=${message}`, '_blank');
                     location.reload(); 
