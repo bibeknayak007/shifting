@@ -1,5 +1,5 @@
 // --- Backend URL ---
-const API_BASE = "https://newfinal-jbm08tvyp-bibeknayak078-8105s-projects.vercel.app";
+const API_BASE = "https://shifting-yp0o.onrender.com";
 
 // Elements
 const authForm = document.getElementById('combinedAuthForm');
