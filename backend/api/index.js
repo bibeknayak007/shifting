@@ -12,12 +12,9 @@ app.use(cors());
 /* ===============================
    MongoDB Connection
 ================================= */
-mongoose.connect(process.env.MONGO_URI, {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
-})
-.then(() => console.log("Connected to MongoDB Atlas"))
-.catch(err => console.error("MongoDB Connection Error:", err));
+mongoose.connect(process.env.MONGO_URI)
+  .then(() => console.log("Connected to MongoDB Atlas"))
+  .catch(err => console.error("MongoDB Connection Error:", err));
 
 /* ===============================
    Test Route
